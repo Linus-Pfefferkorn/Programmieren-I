@@ -4,7 +4,7 @@ public class Util {
 
 	public static String convertWarenartToString(Warenart warenart) {
 		return switch (warenart) {
-		case BIER -> { 
+		case BIER -> {
 			yield "Bier";
 		}
 		case WEIN -> {
@@ -22,7 +22,7 @@ public class Util {
 		case GOLD -> {
 			yield "Gold";
 		}
-	};
+		};
 	}
-	
+
 }

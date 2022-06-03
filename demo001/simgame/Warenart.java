@@ -5,10 +5,5 @@ package demo001.simgame;
  * transportiert und gehandelt werden knnen.
  */
 public enum Warenart {
-	BIER,
-	WEIN,
-	KORN,
-	GLAS,
-	TUCH,
-	GOLD
+	BIER, WEIN, KORN, GLAS, TUCH, GOLD
 }
